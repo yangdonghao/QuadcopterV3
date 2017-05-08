@@ -1,0 +1,1916 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"TIM_C",
+				"TIM_CHANNEL_2"
+			],
+			[
+				"stm",
+				"stm32f4xx_hal_uart.h\t(stm32f4xx_hal_uart.h)"
+			],
+			[
+				"tx",
+				"Tx_Rx_Mode_Flag"
+			],
+			[
+				"uin",
+				"uint32_t"
+			],
+			[
+				"Sys",
+				"SysTim_ms_1606"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "User/PWM_User.h",
+			"settings":
+			{
+				"buffer_size": 157,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "#include \"PWM_User.h\"\n\nvoid Duty_4(uint16_t Chna1, uint16_t Chna2, uint16_t Chna3, uint16_t Chna4)\n{\n  TIM3->CCR1 = Chna1;\n  TIM3->CCR2 = Chna2;\n  TIM3->CCR3 = Chna3;\n  TIM3->CCR4 = Chna4;\n}\n\n",
+			"file": "User/PWM_User.c",
+			"file_size": 202,
+			"file_write_time": 131386623543628894,
+			"settings":
+			{
+				"buffer_size": 192,
+				"line_ending": "Windows",
+				"scratch": true
+			}
+		},
+		{
+			"file": "Src/main.c",
+			"settings":
+			{
+				"buffer_size": 11842,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "版本说明.md",
+			"settings":
+			{
+				"buffer_size": 58,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1271,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Readme_Sublime.md",
+			"settings":
+			{
+				"buffer_size": 348,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+			"settings":
+			{
+				"buffer_size": 174686,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h",
+			"settings":
+			{
+				"buffer_size": 81836,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Inc/main.h",
+			"settings":
+			{
+				"buffer_size": 3450,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h",
+			"settings":
+			{
+				"buffer_size": 38782,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h",
+			"settings":
+			{
+				"buffer_size": 30091,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pc",
+		"selected_items":
+		[
+			[
+				"pc",
+				"Package Control: Remove Package"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"pcr",
+				"Package Control: Remove Package"
+			],
+			[
+				"formart",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"coo",
+				"CoolFormat: Quick Format"
+			],
+			[
+				"pic",
+				"Package Control: Install Package"
+			],
+			[
+				"for",
+				"CoolFormat: Quick Format"
+			],
+			[
+				"ctag",
+				"CTags: Show Symbols (file)"
+			],
+			[
+				"Cscope: ",
+				"Cscope: Find files #including a file"
+			],
+			[
+				"git ",
+				"Git: Commit history"
+			],
+			[
+				"pai",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"mark ",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"omi",
+				"OmniMarkupPreviewer: Preview Current Markup in Browser"
+			],
+			[
+				"ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"GIT",
+				"Git: Init"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"romv",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"romev",
+				"Package Control: Remove Package"
+			],
+			[
+				"Set Syntax:La",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"u",
+				"LaTeXTools: Reset user settings to default"
+			],
+			[
+				"insta",
+				"LaTeXing: Word to Phrases Dictionary"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/G/SYNC/keil/Github/QuadcopterV3"
+	],
+	"file_history":
+	[
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/SublimeAStyleFormatter/SublimeAStyleFormatter.sublime-settings",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/G/SYNC/keil/Quadcopter17050701/Quadcopter/Src/main.c",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/SublimeAStyleFormatter/Default (Windows).sublime-keymap",
+		"/G/SYNC/keil/Quadcopter17050701/Quadcopter/Sublime.sublime-project",
+		"/G/SYNC/keil/Quadcopter170507/RTE/Device/eMPL/driver/include/mpu.h",
+		"/G/SYNC/keil/Quadcopter170507/RTE/Device/STM32F407VGTx/STCubeGenerated/Src/stm32f4xx_it.c",
+		"/G/SYNC/keil/Quadcopter170507/RTE/Device/eMPL/driver/STM32F4/mpu.c",
+		"/G/SYNC/keil/Quadcopter170507/RTE/Device/STM32F407VGTx/STCubeGenerated/Src/main.c",
+		"/G/SYNC/keil/Quadcopter170507/Readme_Sublime.md",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/User/SublimeAStyleFormatter.sublime-settings",
+		"/G/SYNC/keil/Quadcopter170507/Sublime.sublime-project",
+		"/G/SYNC/keil/Quadcopter170507/RTE/Device/STM32F407VGTx/STCubeGenerated/Inc/main.h",
+		"/G/SYNC/keil/Quadcopter170507/RTE/Device/STM32F407VGTx/STCubeGenerated/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/Default (Windows).sublime-keymap",
+		"/G/SYNC/keil/Quadcopter170507/RTE/CMSIS/los_bsp_adapter.c",
+		"/G/SYNC/keil/Quadcopter/Src/stm32f4xx_it.c",
+		"/G/SYNC/keil/Quadcopter/Readme_Sublime.md",
+		"/G/SYNC/keil/Quadcopter/README.md",
+		"/G/SYNC/keil/Quadcopter/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h",
+		"/G/SYNC/keil/Quadcopter/Inc/main.h",
+		"/G/SYNC/keil/Quadcopter/Src/main.c",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/Markdown Slideshow/Default.sublime-keymap",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/User/OmniMarkupPreviewer.sublime-settings",
+		"/G/SYNC/keil/Quadcopter/Sublime.sublime-project",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/MarkdownEditing/README.md",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/OmniMarkupPreviewer/Default (Windows).sublime-keymap",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/G/SYNC/keil/Github/QuadcopterV2/MDK/RTE/Device/eMPL/driver/STM32F4/mpu.h",
+		"/G/SYNC/keil/Github/QuadcopterV2/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+		"/C/Python25/eMPL-client.py",
+		"/G/SYNC/keil/Github/QuadcopterV2/MDK/RTE/Device/eMPL/driver/STM32F4/log_stm32.c",
+		"/G/SYNC/keil/Github/QuadcopterV2/MDK/RTE/Device/eMPL/driver/STM32F4/mpu.c",
+		"/G/SYNC/keil/Github/QuadcopterV2/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h",
+		"/G/SYNC/keil/Github/QuadcopterV2/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Src/main.c",
+		"/G/SYNC/keil/Github/QuadcopterV2/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Src/stm32f4xx_it.c",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/G/SYNC/keil/Quadcopter170404github/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+		"/G/SYNC/keil/Quadcopter170404github/MDK/RTE/Device/eMPL/driver/STM32F4/packet.h",
+		"/G/SYNC/keil/Quadcopter170404github/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Inc/main.h",
+		"/G/SYNC/keil/Quadcopter170404github/MDK/RTE/Device/eMPL/driver/STM32F4/log_stm32.c",
+		"/G/Software/aria2-1.31.0-win-64bit-build1/HideRunAria2.vbs",
+		"/G/Software/aria2-1.31.0-win-64bit-build1/aria2.conf",
+		"/G/SYNC/keil/Quadcopter170404github/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Src/main.c",
+		"/G/SYNC/keil/Quadcopter170404github/MDK/RTE/Device/eMPL/driver/STM32F4/mpu.c",
+		"/C/Keil_v5/ARM/PACK/Keil/STM32F4xx_DFP/2.9.0/MDK/Boards/ST/STM32F4-Discovery/Common/LED_F4Discovery.c",
+		"/G/SYNC/keil/Quadcopter170404github/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c",
+		"/G/SYNC/keil/Quadcopter170404github/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+		"/G/SYNC/keil/Quadcopter170404github/MDK/RTE/Device/eMPL/driver/eMPL/inv_mpu.c",
+		"/G/SYNC/keil/Quadcopter170404github/MDK/RTE/Device/eMPL/mllite/data_builder.c",
+		"/C/Keil_v5/ARM/PACK/Keil/STM32F4xx_DFP/2.9.0/MDK/Boards/ST/STM32F4-Discovery/Blinky/Abstract.txt",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/eMPL/driver/STM32F4/packet.h",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/eMPL/driver/STM32F4/mpu.c",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/eMPL/driver/eMPL/inv_mpu.c",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/eMPL/driver/STM32F4/stm32f4xx_empl_drv.c",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/eMPL/mllite/data_builder.c",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/eMPL/mllite/data_builder.h",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/eMPL/eMPL-hal/eMPL_outputs.c",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/eMPL/driver/include/log.h",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/README.md",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Src/stm32f4xx_it.c",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Inc/main.h",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/eMPL/driver/STM32F4/mpu.h",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/eMPL/driver/STM32F4/stm32f4xx_empl_drv.h",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/Sublime项目文件.sublime-project",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/Sublime-CoolFormat-master/CoolFormatLib/CoolFormatConfig.cfconfig",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/CoolFormat/CoolFormatLib/CoolFormatConfig.cfconfig",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Src/stm32f4xx_hal_msp.c",
+		"/C/Program Files/User_define/Capslock+/CapsLock+settings.ini",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xc.h",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/STM32F407VGTx/MX_Device.h",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/CTags/Default.sublime-mousemap",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/Cscope/CscopeSublime.sublime-settings",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-mousemap",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/CTags/Default.sublime-keymap",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h",
+		"/C/Users/YDH/Documents/GitHub2/Quadcopter/MDK/Objects/Quadcopter.htm",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/User/CTags.sublime-settings",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/User/CscopeSublime.sublime-settings",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/CTags/CTags.sublime-settings",
+		"/C/Users/YDH/AppData/Roaming/Sublime Text 3/Packages/OmniMarkupPreviewer/OmniMarkupPreviewer.sublime-settings",
+		"/C/Users/Timer/Documents/GitHub/Quadcopter/Sublime项目文件.sublime-project",
+		"/C/Users/Timer/Documents/GitHub/Quadcopter/台式机.sublime-project",
+		"/C/Users/Timer/Documents/GitHub/Quadcopter/MDK/RTE/Device/STM32F407VGTx/STCubeGenerated/Src/main.c",
+		"/C/Users/Timer/AppData/Roaming/Sublime Text 3/Packages/User/CTags.sublime-settings",
+		"/C/Users/Timer/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/C/Users/Timer/Documents/GitHub/Quadcopter/笔记本.sublime-project",
+		"/C/Users/Timer/Documents/GitHub/Quadcopter/README.md",
+		"/C/Users/Timer/AppData/Roaming/Sublime Text 3/Packages/User/OmniMarkupPreviewer.sublime-settings",
+		"/C/Users/Timer/Documents/GitHub/Quadcopter/.gitignore",
+		"/C/Users/Timer/Documents/GitHub/Quadcopter/Sublime_project.sublime-project",
+		"/C/Users/Timer/Desktop/STM32F10x_StdPeriph_Lib_V3.5.0/Project/STM32F10x_StdPeriph_Examples/USART/DMA_Interrupt/system_stm32f10x.c",
+		"/C/Users/Timer/Desktop/STM32F10x_StdPeriph_Lib_V3.5.0/Project/STM32F10x_StdPeriph_Examples/USART/DMA_Interrupt/stm32f10x_it.h",
+		"/C/Users/Timer/Desktop/STM32F10x_StdPeriph_Lib_V3.5.0/Project/STM32F10x_StdPeriph_Examples/USART/DMA_Interrupt/stm32f10x_conf.h",
+		"/C/Users/Timer/Desktop/STM32F10x_StdPeriph_Lib_V3.5.0/Project/STM32F10x_StdPeriph_Examples/USART/DMA_Interrupt/stm32f10x_it.c",
+		"/C/Users/Timer/Desktop/STM32F10x_StdPeriph_Lib_V3.5.0/Project/STM32F10x_StdPeriph_Examples/USART/DMA_Interrupt/platform_config.h",
+		"/C/Users/Timer/Desktop/STM32F10x_StdPeriph_Lib_V3.5.0/Project/STM32F10x_StdPeriph_Examples/USART/DMA_Interrupt/main.c",
+		"/C/Users/Timer/Desktop/STM32F10x_StdPeriph_Lib_V3.5.0/Project/STM32F10x_StdPeriph_Examples/USART/DMA_Interrupt/readme.txt",
+		"/D/SYNC/design/keil/6_Keil/RTE/Device/STM32F407VGTx/STCubeGenerated/Src/stm32f4xx_it.c",
+		"/D/SYNC/design/keil/6_Keil/RTE/Device/STM32F407VGTx/MX_Device.h",
+		"/D/SYNC/design/keil/6_Keil/RTE/Device/STM32F407VGTx/STCubeGenerated/Src/main.c",
+		"/D/SYNC/design/keil/6_Keil/RTE/Device/STM32F407VGTx/STCubeGenerated/Inc/main.h",
+		"/C/Keil_v5/ARM/Pack/Keil/STM32F4xx_DFP/2.7.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+		"/C/Keil_v5/ARM/Pack/Keil/STM32F4xx_DFP/2.7.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h",
+		"/D/SYNC/design/keil/6_Keil/RTE/RTE_Components.h",
+		"/D/SYNC/design/keil/Keil_nene/RTE/Device/STM32F407VGTx/MX_Device.h",
+		"/C/Keil_v5/ARM/Pack/Keil/STM32F4xx_DFP/2.7.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+		"/D/SYNC/design/keil/Keil_nene/RTE/Device/STM32F407VGTx/system_stm32f4xx.c",
+		"/D/SYNC/design/keil/Keil_nene/RTE/RTE_Components.h",
+		"/C/Keil_v5/ARM/Pack/Keil/STM32F4xx_DFP/2.7.0/Projects/STM32F401-Discovery/Examples/UART/UART_TwoBoards_ComDMA/Src/main.c",
+		"/C/Users/Timer/Downloads/Compressed/STM32_LIBRARIES/tm_stm32_usart_dma.h",
+		"/C/Users/Timer/Downloads/Compressed/STM32_LIBRARIES/tm_stm32_usart_dma.c",
+		"/C/Users/Timer/Downloads/Compressed/STM32_LIBRARIES/fatfs/ff.h",
+		"/D/Files/Old_Files/Old_Window_File/Design/Project/Flyer/New_15.2.6/STM32F10x_StdPeriph_Lib_V3.5.0/Project/STM32F10x_StdPeriph_Examples/USART/DMA_Interrupt/stm32f10x_it.c",
+		"/D/Files/Old_Files/Old_Window_File/Design/Project/Program/LED/arm/STM32F10x_StdPeriph_Lib_V3.5.0/Project/STM32F10x_StdPeriph_Examples/USART/DMA_Interrupt/main.c",
+		"/C/Users/Timer/Downloads/Compressed/STM32_LIBRARIES/mainpage.h",
+		"/D/Files/Old_Files/Old_Window_File/Design/Project/Flyer/New_15.2.6/STM32F10x_StdPeriph_Lib_V3.5.0/Project/STM32F10x_StdPeriph_Examples/USART/DMA_Interrupt/stm32f10x_conf.h",
+		"/D/Files/Old_Files/Old_Window_File/Design/Project/Flyer/New_15.2.6/STM32F10x_StdPeriph_Lib_V3.5.0/Project/STM32F10x_StdPeriph_Examples/USART/DMA_Interrupt/platform_config.h"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 296.0,
+		"where_history":
+		[
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"htim3",
+			"refresh_on_modified",
+			"eMPL_send_quat",
+			"RxBuffer",
+			"read_from_mpl",
+			"eMPL_send_quat",
+			"PACKET_DATA_QUAT",
+			"read_from_mpl",
+			"eMPL_send_quat",
+			"out",
+			"eMPL_send_quat",
+			"out",
+			"quat",
+			"hdma_usart2_rx",
+			"MX_USART2",
+			"MX_USART2_TX_DMA_MemBurst",
+			"DMA_MemoryBaseAddr ",
+			"GPIO_InitTypeDef",
+			"DMA1_Stream6_IRQn",
+			"command",
+			"RTE_DEVICE_HAL_UART",
+			"MX_I2C1_SCL_GPIO_Speed",
+			"TxBufferSize1",
+			"pdf",
+			"red",
+			"toc",
+			"starttoc",
+			"tableofcontents",
+			"Содержание",
+			"\\textit {Simulink}",
+			"f=",
+			"width=12cm",
+			"width=17cm",
+			"angle=270,",
+			"Содержание",
+			"titlesec",
+			"subsection",
+			"simf",
+			"Управление",
+			"\\vspace{2mm}",
+			"space",
+			"subsection",
+			"section",
+			"cen",
+			"RequirePackage",
+			"footmisc",
+			"usepackage",
+			"fs",
+			"cen",
+			"caption2",
+			"Executors",
+			"МАТЕМАТИЧЕСКОЕ МОДЕЛИРОВАНИЕ ОБЪЕКТОВ",
+			"МАТЕМАТИЧЕСКОЕ",
+			"no",
+			"Otqutu",
+			"UdkName",
+			"NirUdk",
+			"StageNo",
+			"NirStage",
+			"NirYear",
+			"NirBoss",
+			"NirStage",
+			"Otchet",
+			"StageNo",
+			"Boss",
+			"Otchet",
+			"StageNo",
+			"Otchet",
+			"StageNo",
+			"NirStage",
+			"NirUdk",
+			"UdkName",
+			"NirUdk",
+			"InventarNo",
+			"Otchet",
+			"1.1",
+			"StageNo",
+			"Otchet",
+			"ОТЧЁТ",
+			"StageType",
+			"StageNo",
+			"Этап",
+			"NirStage",
+			"NirTitle",
+			"StageNo",
+			"AnnOtchet",
+			"Этап",
+			"StageNo",
+			"АННОТАЦИОННЫЙ ОТЧЁТ",
+			"О НАУЧНО-ИССЛЕДОВАТЕЛЬСКОЙ",
+			"АННОТАЦИОННЫЙ",
+			"linespread",
+			"NirTitle",
+			"OOO",
+			"Town",
+			"NirManager",
+			"Директор",
+			"Инв",
+			"УДК",
+			"НАУЧНО",
+			"tableofcontents",
+			"preamble",
+			"png",
+			"esp",
+			"hrule",
+			"align",
+			"subsubsection",
+			"subsection",
+			"-1",
+			"esp",
+			"team",
+			"section",
+			"sub",
+			"This section consists of screenshots taken during the",
+			"This section will consist of the important code blocks which were changed in order to meet the requirements\nof the lab",
+			"SICInterruptAsserte",
+			"i f ( adi int SICInterruptAsserte",
+			"subsection",
+			"setlength",
+			"\"cmd\"",
+			"\"cmd\": [\"texify\",\"-b\",\"-p\",\"--tex-option=\\\"--synctex=1\\\"\"]",
+			"window",
+			"pdftex",
+			"document",
+			"\\",
+			"document}",
+			"Build engine settings",
+			"windows"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"width=10cm",
+			"width=12cm",
+			"",
+			"\\vspace{4mm}"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "User/PWM_User.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								139,
+								139
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										145,
+										146
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										82,
+										83
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"bs_sintax": "c++",
+							"buffer_scroll_name": "c36dd5c9",
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"spell_check": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "User/PWM_User.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34,
+								28
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"bs_sintax": "c improved",
+							"buffer_scroll_name": "b279963f",
+							"in_converting": true,
+							"is_init_dirty_state": false,
+							"origin_encoding": "GB2312",
+							"spell_check": false,
+							"syntax": "Packages/C Improved/C Improved.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Src/main.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11842,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4141,
+								4141
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										4786,
+										4787
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										3275,
+										3276
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"bs_sintax": "c improved",
+							"buffer_scroll_name": "d70bc19e",
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"spell_check": false,
+							"syntax": "Packages/C Improved/C Improved.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2307.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "版本说明.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 58,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "c02d921f",
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"spell_check": false,
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								236,
+								236
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bs_sintax": "markdown",
+							"buffer_scroll_name": "64b3cfa4",
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"spell_check": false,
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Readme_Sublime.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"bs_sintax": "markdown",
+							"buffer_scroll_name": "e995f58d",
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"spell_check": false,
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 174686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36959,
+								36942
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"bs_sintax": "c improved",
+							"buffer_scroll_name": "d9ef1b13",
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"spell_check": false,
+							"syntax": "Packages/C Improved/C Improved.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 25008.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 81836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18769,
+								18756
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"bs_sintax": "c++",
+							"buffer_scroll_name": "1be35549",
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"spell_check": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 9414.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Inc/main.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"bs_sintax": "c++",
+							"buffer_scroll_name": "1ce54057",
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"spell_check": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 966.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 38782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10082,
+								10064
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										10063,
+										10064
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										8358,
+										8359
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bs_sintax": "c++",
+							"buffer_scroll_name": "a4a02cbc",
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"spell_check": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 4055.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30091,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9823,
+								9806
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										9805,
+										9806
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										7555,
+										7556
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bs_sintax": "c++",
+							"buffer_scroll_name": "e7a447b4",
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"spell_check": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 4285.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 41.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"project": "Sublime.sublime-project",
+	"replace":
+	{
+		"height": 78.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Study\\latex+Sub\\Sub_data\\Keil_fly_project.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 480.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
